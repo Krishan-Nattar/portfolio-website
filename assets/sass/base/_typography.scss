@@ -45,6 +45,11 @@
 			color: _palette(fg-bold) !important;
 		}
 
+		&.special.downarrow:not(.button):before {
+  
+			content: '\f107';
+			 }
+
 		&.special:not(.button) {
 			@include icon(false, solid);
 			border-bottom: 0;
